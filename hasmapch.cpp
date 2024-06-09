@@ -24,16 +24,16 @@ int main() {
 
 // for every character we take 256
 
- int hash[256]={0};
-    for(int i=0;i<s.size();i++){
-        hash[s[i]]++;
-    }
-    int q;
-    cin>>q;
-    while(q--){
-        char c;
-        cin>>c;
-        cout<<hash[c]<<endl;
+//  int hash[256]={0};
+//     for(int i=0;i<s.size();i++){
+//         hash[s[i]]++;
+//     }
+//     int q;
+//     cin>>q;
+//     while(q--){
+//         char c;
+//         cin>>c;
+//         cout<<hash[c]<<endl;
 
-    }
+//     }
      
