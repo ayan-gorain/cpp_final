@@ -12,7 +12,14 @@ while(p1<p2){
         if(arr[p1] % 2 == 0) p1++;
         if(arr[p2] %2  != 0) p2--;
     }
+
+    
+
+    
+
     swap(arr[p1] , arr[p2]); 
+    
+    
     p1++;
     p2--;
 }
